@@ -203,15 +203,15 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="B48A8A" />
-        <option name="ERROR_STRIPE_COLOR" value="B48A8A" />
+        <option name="EFFECT_COLOR" value="D65B65" />
+        <option name="ERROR_STRIPE_COLOR" value="D65B65" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="C8A27A" />
-        <option name="ERROR_STRIPE_COLOR" value="C8A27A" />
+        <option name="EFFECT_COLOR" value="D7B354" />
+        <option name="ERROR_STRIPE_COLOR" value="D7B354" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
