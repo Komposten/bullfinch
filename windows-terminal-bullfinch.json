@@ -2,7 +2,7 @@
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "schemes": [
     {
-      "name": "NightLion Aptana",
+      "name": "Bullfinch",
       "background": "#1E1E1E",
       "foreground": "#E2E2E2",
       "cursorColor": "#8DCBE2",

@@ -1,10 +1,10 @@
 {
 	"$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-	"name": "NightLion Aptana",
-	"author": "NightLion (adapted for Zed by Copilot)",
+	"name": "Bullfinch",
+	"author": "Komposten, GitHub Copilot",
 	"themes": [
 		{
-			"name": "NightLion Aptana Dark",
+			"name": "Bullfinch Dark",
 			"appearance": "dark",
 			"style": {
 				"border": "#505050ff",
@@ -266,7 +266,7 @@
 			}
 		},
 		{
-			"name": "NightLion Aptana Muted Dark",
+			"name": "Bullfinch Muted Dark",
 			"appearance": "dark",
 			"style": {
 				"border": "#494949ff",
