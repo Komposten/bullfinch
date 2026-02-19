@@ -1,0 +1,7 @@
+id = "bullfinch-theme"
+name = "Bullfinch"
+version = "1.0.0"
+schema_version = 1
+authors = ["Komposten"]
+description = "A Zed theme with soft, pastel-like colours. Heavily based on the NightLion theme for Eclipse."
+repository = "https://github.com/komposten/bullfinch"
