@@ -1,24 +1,12 @@
 # Bullfinch
 
-Bullfinch is a theme based on [NightLion's Eclipse](https://github.com/eclipse-color-theme/eclipse-color-theme/blob/master/com.github.eclipsecolortheme/themes/nightlion-aptana-theme.xml) theme.
+Bullfinch is a theme based on the [NightLion Eclipse](https://github.com/eclipse-color-theme/eclipse-color-theme/blob/master/com.github.eclipsecolortheme/themes/nightlion-aptana-theme.xml) theme.
 
-## Included themes
+## Supported tools
 
-- Zed theme family: `zed-bullfinch.json`
-  - `Bullfinch Dark`
-  - `Bullfinch Muted Dark`
-- Windows Terminal scheme: `windows-terminal-bullfinch.json`
-- IntelliJ schemes:
-  - `bullfinch.icls`
-  - `bullfinch-muted.icls`
-
-## Reference files
-
-Reference assets used during theme creation are kept in `resources/`:
-
-- Eclipse NightLion source theme
-- IntelliJ Islands Dark reference scheme
-- Zed schema and reference theme
+- [Zed](zed/)
+- [Windows Terminal](windows-terminal/)
+- [IntelliJ](intellij/)
 
 ## Usage
 
@@ -35,12 +23,7 @@ Reference assets used during theme creation are kept in `resources/`:
 
 ### IntelliJ / JetBrains IDEs
 
-1. Go to Editor > Color Scheme.
-2. Import Scheme and select either:
-  - `bullfinch.icls`
-  - `bullfinch-muted.icls`
+1. Open Settings
+2. Go to Editor > Color Scheme.
+3. Import Scheme
 
-## Notes
-
-- The muted variants are designed for lower color intensity while preserving theme identity.
-- Diagnostic warning/error colors are intentionally separated for better readability.
