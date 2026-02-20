@@ -15,6 +15,7 @@ Based on the [NightLion Eclipse](https://github.com/eclipse-color-theme/eclipse-
 - [Zed](https://zed.dev)
 - [Windows Terminal](https://github.com/microsoft/terminal)
 - [IntelliJ](https://www.jetbrains.com/idea/)
+- [Visual Studio Code](https://code.visualstudio.com)
 
 ## Installation
 
@@ -37,3 +38,17 @@ Based on the [NightLion Eclipse](https://github.com/eclipse-color-theme/eclipse-
 2. Go to `Editor` > `Color Scheme`
 3. Click `⚙️` > `Import Scheme` > `IntelliJ IDEA color scheme (.icls)`
 4. Select your preferred theme file from the [intellij/](intellij/) folder
+
+### Visual Studio Code
+
+**Prerequisites**
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [vsce](https://github.com/microsoft/vscode-vsce) (`npm install -g @vscode/vsce`) 
+
+**Steps**
+
+1. Open a terminal in the [code/](code/) folder
+2. Run `vsce package` to build an extension package containing the theme
+3. Open Visual Studio Code and open the Extensions panel
+4. In the top of the panel, click `...` > `Install from VSIX...`
+5. Select the extension package from step 2 (bullfinch-themes-[version].vsix)

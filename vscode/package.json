@@ -1,0 +1,30 @@
+{
+  "name": "bullfinch-themes",
+  "displayName": "Bullfinch Themes",
+  "description": "Bullfinch dark themes for Visual Studio Code.",
+  "version": "1.0.0",
+  "publisher": "bullfinch",
+  "repository": {
+    "url": "https://github.com/komposten/bullfinch"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bullfinch Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bullfinch-dark-color-theme.json"
+      },
+      {
+        "label": "Bullfinch Muted Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bullfinch-muted-dark-color-theme.json"
+      }
+    ]
+  }
+}
